@@ -1,0 +1,106 @@
+
+
+ρ	σ	β	μ	ν	η
+ξ	τ	Δ	α	φ	λ
+δ	ϑ	γ	π	Ω	ω
+<	>	≤	≥	ℤ	ℝ
+≈	÷	℃	°	∙	Σ
+
+
+
+
+config spacing
+
+spacing:       12    %
+root spacing:  12    %
+
+Borders
+
+Left:          1.50
+Right:         1.20
+Top:           2.50
+Bottom:        1.20
+
+Fractions
+
+Numerator:     0     %
+Denominator:   32    %
+
+font
+font size 28
+Nimbus Roman
+
+
+
+Format>Text>Superscript Shift + Ctrl + P
+Format>Text>Subscript Shift + Ctrl + B
+
+
+
+
+
+
+
+Двигатели ДПМ
+
+
+
+
+W_ф = {E_ф} over {4.44 ∙ f_1 ∙ K_об ∙ Ф_м}
+
+
+
+I_a = {P_1} over {U}
+P_1н = {P_2н} over {η}
+
+R_a  = {U - E_a} over {I_a}
+R_a  = {ρ_м ∙ l_o} over {F_n}
+I_an = {U} over {R_a}
+ω_н  = {π ∙ n_н} over {30}
+
+
+Синхронные микродвигатели
+
+
+n_c = {60 ∙ f_1} over {p}
+q_1 = {Z_1} over {2p ∙ m_1}
+y_1 = {Z_1} over {2p}
+
+E_ф = (0.9 - 0.95)U_ф
+E_ф = 4.44 ∙ f_1 ∙ W_ф ∙ K_об ∙ Ф_m
+
+Ф_m = 0.07.... 0.9 
+
+W_ф = {E_ф} over {4.44 ∙ f_1 ∙ K_об ∙ Ф_m}
+N_ф = 2 ∙ W_ф
+N_п = {N_ф} over {q_1 ∙ 2p}
+
+P_1Н = I_1 ∙ U_ф ∙ cosφ
+I_1  = {P_1Н} over {U_ф ∙ cosφ}
+sin_φ = 
+
+I_1 = 1.8 ∙ I_р
+I_р = {I_1} over {1.8}
+
+I = I_п + I_р
+I_п = 1.5 ∙ I_р
+
+
+Z_p = {U_ф} over {I_p}
+X_p = Z_p ∙ sinφ 
+
+
+Z_ф = {Z_p} over {2}
+X_ф = {X_p} over {2}
+
+F_п = {I_1} over {j}
+
+U_c = 
+C = {1} over {2 ∙ π ∙ f_1 ∙ X_c }
+
+l_л = 0.2 ∙ [l_c = l_п]
+l_ср = 2l_п + 2l_л
+l_ф = l_ср ∙ W_ф
+R_ф = {ρ_м ∙ l_ф} over {F_ф}
+m = 8900 ∙ F_п ∙ l_ф
+
